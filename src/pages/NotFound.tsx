@@ -2,9 +2,13 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
+import useScrollToAnchor from '@/hooks/useScrollToAnchor';
 
 const NotFound = () => {
   const location = useLocation();
+  
+  // Enable smooth scrolling to anchor links
+  useScrollToAnchor();
 
   return (
     <Layout>

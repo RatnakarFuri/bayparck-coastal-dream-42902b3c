@@ -10,9 +10,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="flex flex-col space-y-4">
             <img
-              src="/lovable-uploads/66e5d48c-1b51-4187-b1f1-08329e697478.png"
+              src="/lovable-uploads/whitelogo.jpg"
               alt="SVN BAY PARCK"
-              className="h-16 mb-4 invert"
+              className="h-16 mb-4"
             />
             <p className="text-sm">
               Luxury Redefined by the Shore – Experience Exclusive Beachfront Living at SVN Bay Parck
@@ -59,11 +59,11 @@ const Footer = () => {
                 <Facebook size={20} />
               </a>
               <a
-                href="https://g.co/kgs/TXnG4wr"
+                href="https://maps.app.goo.gl/j4WWCoTxUbKe8yv67"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-svn-secondary transition-colors"
-                aria-label="Google Business"
+                aria-label="Google Maps"
               >
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" />
@@ -83,6 +83,21 @@ const Footer = () => {
 
         <div className="mt-12 pt-4 border-t border-white/20 text-center text-xs">
           <p>&copy; {new Date().getFullYear()} SVN BAY PARCK. All Rights Reserved.</p>
+        </div>
+      </div>
+      
+      {/* Fillout form embed at the bottom of every page */}
+      <div className="bg-white py-12">
+        <div className="luxe-container">
+          <div className="max-w-4xl mx-auto">
+            <div 
+              style={{width:"65%", height:"500px", margin: "0 auto"}} 
+              data-fillout-id="852m1TJi9dus" 
+              data-fillout-embed-type="standard" 
+              data-fillout-inherit-parameters 
+              data-fillout-dynamic-resize
+            ></div>
+          </div>
         </div>
       </div>
     </footer>

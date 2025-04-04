@@ -53,7 +53,7 @@ const ContactSection = () => {
             
             <div className="mt-8">
               <a 
-                href="https://goo.gl/maps/5zibrTfJhstxPzCP8" 
+                href="https://maps.app.goo.gl/j4WWCoTxUbKe8yv67" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-primary inline-flex items-center"
@@ -82,7 +82,13 @@ const ContactSection = () => {
               </div>
               
               <div className="mt-8">
-                <div data-tf-live="01JQTPPNWK6ZN38YWCHJK66DJJ" data-tf-height="400"></div>
+                <div 
+                  style={{width:"100%", height:"400px"}} 
+                  data-fillout-id="852m1TJi9dus" 
+                  data-fillout-embed-type="standard" 
+                  data-fillout-inherit-parameters 
+                  data-fillout-dynamic-resize
+                ></div>
               </div>
             </div>
           </div>

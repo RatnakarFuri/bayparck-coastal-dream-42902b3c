@@ -1,8 +1,12 @@
 
 import React from 'react';
 import Layout from '@/components/layout/Layout';
+import useScrollToAnchor from '@/hooks/useScrollToAnchor';
 
 const AboutPage = () => {
+  // Enable smooth scrolling to anchor links
+  useScrollToAnchor();
+
   return (
     <Layout>
       <div className="pt-24 pb-16 md:py-32 bg-gray-50">

@@ -1,9 +1,11 @@
-
 import React, { useState } from 'react';
 import Layout from '@/components/layout/Layout';
 import { X } from 'lucide-react';
+import useScrollToAnchor from '@/hooks/useScrollToAnchor';
 
 const GalleryPage = () => {
+  useScrollToAnchor();
+  
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const galleryItems = [

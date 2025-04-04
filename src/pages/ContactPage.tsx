@@ -1,8 +1,12 @@
 
 import React from 'react';
 import Layout from '@/components/layout/Layout';
+import useScrollToAnchor from '@/hooks/useScrollToAnchor';
 
 const ContactPage = () => {
+  // Enable smooth scrolling to anchor links
+  useScrollToAnchor();
+
   return (
     <Layout>
       <div className="pt-24 pb-16 md:py-32 bg-gray-50">
@@ -39,7 +43,7 @@ const ContactPage = () => {
                     <h3 className="text-lg font-medium text-svn-primary mb-2">Location</h3>
                     <p className="text-gray-600">Koshta Junction, Srikakulam, Andhra Pradesh</p>
                     <a 
-                      href="https://maps.app.goo.gl/5zibrTfJhstxPzCP8" 
+                      href="https://maps.app.goo.gl/j4WWCoTxUbKe8yv67" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="text-svn-secondary mt-2 inline-block hover:underline"
@@ -131,7 +135,13 @@ const ContactPage = () => {
                     <p className="text-gray-600 text-sm mt-1">Fill out the form below and our team will get back to you shortly.</p>
                   </div>
                   <div className="p-6">
-                    <div data-tf-live="01JQTPPNWK6ZN38YWCHJK66DJJ" data-tf-height="400"></div>
+                    <div 
+                      style={{width:"100%", height:"400px"}} 
+                      data-fillout-id="852m1TJi9dus" 
+                      data-fillout-embed-type="standard" 
+                      data-fillout-inherit-parameters 
+                      data-fillout-dynamic-resize
+                    ></div>
                   </div>
                 </div>
               </div>
