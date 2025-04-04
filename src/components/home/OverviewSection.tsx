@@ -25,7 +25,7 @@ const OverviewSection = () => {
           </div>
 
           <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2">
-            <img alt="Luxury Resort" className="w-full h-48 object-cover" src="/lovable-uploads/4fa17a5f-341d-435c-b3bf-60eefb234846.jpg" />
+            <img alt="Luxury Resort" className="w-full h-48 object-cover" src="/lovable-uploads/ce1aa369-bde7-4c90-9c13-f9ba1b2f9c47.jpg" />
             <div className="p-6">
               <h3 className="text-xl font-medium text-svn-primary mb-2">Luxury Resort</h3>
               <p className="text-gray-600 mb-4">
